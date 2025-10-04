@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Free Website</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height:1.6; }
+    header { text-align:center; margin-bottom:1.5rem; }
+    .hero { border-radius:12px; padding:1.5rem; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+    nav a { margin:0 .6rem; text-decoration:none; color:inherit; }
+    footer { margin-top:2rem; color:#666; font-size:.9rem; text-align:center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Free Website</h1>
+    <nav><a href="#about">About</a> · <a href="#work">Work</a> · <a href="#contact">Contact</a></nav>
+  </header>
+
+  <section class="hero">
+    <h2 id="about">About</h2>
+    <p>Hello — this is a simple starter page. Edit this text, add images, and link pages as needed.</p>
+  </section>
+
+  <section>
+    <h2 id="work">Work / Projects</h2>
+    <ul>
+      <li>Project 1 — short description</li>
+      <li>Project 2 — short description</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="contact">Contact</h2>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Your Name
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
